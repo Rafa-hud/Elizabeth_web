@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import TulipanEffect from '../components/TulipanEffect';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
-import profileImage from '../assets/images/profile.jpg'; // Asegúrate de tener esta imagen
+import profileImage from '../assets/images/profile.jpeg'; // Asegúrate de tener esta imagen
 
 const Home = () => {
   return (
