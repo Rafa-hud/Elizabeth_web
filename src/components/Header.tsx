@@ -11,10 +11,7 @@ const Header = () => {
       transition={{ duration: 0.8 }}
     >
       <div className="container">
-        <div className="logo-container">
-          <FontAwesomeIcon icon={faLaptopCode} className="logo-icon" />
-          <h1>Elizabeth Lastra Cierto</h1>
-        </div>
+        
       </div>
     </motion.header>
   );
