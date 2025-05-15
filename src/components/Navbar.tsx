@@ -65,7 +65,7 @@ const Navbar = () => {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3 }}
           >
-            <span className="logo-highlight">EL</span>Cierto
+            <span className="logo-highlight">ELI</span>
           </motion.div>
           
           <ul className="nav-items">
