@@ -4,10 +4,10 @@ import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Home from './sections/Home';
 import About from './sections/About';
-import Interests from './sections/Interests';
-import Skills from './sections/Skills';
-import Experience from './sections/Experience';
-import Contact from './sections/Contact';
+//import Interests from './sections/Interests';
+//import Skills from './sections/Skills';
+//import Experience from './sections/Experience';
+/*import Contact from './sections/Contact';*/
 import './styles/main.scss';
 
 const App = () => {
@@ -24,10 +24,7 @@ const App = () => {
         <main>
           <Home />
           <About />
-          <Interests />
-          <Skills />
-          <Experience />
-          <Contact />
+         
         </main>
       </div>
     </Router>

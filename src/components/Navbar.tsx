@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -61,10 +62,7 @@ const Navbar = () => {
   const navItems = [
     { id: 'home', icon: faHome, label: 'Inicio' },
     { id: 'about', icon: faUser, label: 'Sobre mí' },
-    { id: 'interests', icon: faHeart, label: 'Intereses' },
-    { id: 'skills', icon: faCode, label: 'Habilidades' },
-    { id: 'experience', icon: faBriefcase, label: 'Experiencia' },
-    { id: 'contact', icon: faEnvelope, label: 'Contacto' },
+    
   ];
 
   const handleNavClick = (id: string) => {

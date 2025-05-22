@@ -14,16 +14,16 @@ import { faDatabase, faMobileAlt, faServer } from '@fortawesome/free-solid-svg-i
 
 const Skills = () => {
   const skills = [
-    { icon: faReact, name: 'React', level: 90, color: '#61DAFB' },
-    { icon: faJs, name: 'JavaScript', level: 85, color: '#F7DF1E' },
-    { icon: faHtml5, name: 'HTML5', level: 95, color: '#E34F26' },
-    { icon: faCss3Alt, name: 'CSS3', level: 90, color: '#1572B6' },
-    { icon: faNodeJs, name: 'Node.js', level: 80, color: '#339933' },
-    { icon: faPython, name: 'Python', level: 75, color: '#3776AB' },
-    { icon: faDatabase, name: 'MongoDB', level: 75, color: '#47A248' },
-    { icon: faGitAlt, name: 'Git', level: 85, color: '#F05032' },
-    { icon: faMobileAlt, name: 'React Native', level: 70, color: '#61DAFB' },
-    { icon: faServer, name: 'Express', level: 78, color: '#000000' }
+    { icon: faReact, name: '', level: 0, color: '#61DAFB' },
+    { icon: faJs, name: '', level: 0, color: '#F7DF1E' },
+    { icon: faHtml5, name: '', level: 0, color: '#E34F26' },
+    { icon: faCss3Alt, name: '', level: 0, color: '#1572B6' },
+    { icon: faNodeJs, name: '', level: 0, color: '#339933' },
+    { icon: faPython, name: '', level: 0, color: '#3776AB' },
+    { icon: faDatabase, name: '', level: 0, color: '#47A248' },
+    { icon: faGitAlt, name: '', level: 0, color: '#F05032' },
+    { icon: faMobileAlt, name: '', level: 0, color: '#61DAFB' },
+    { icon: faServer, name: '', level: 0, color: '#000000' }
   ];
 
   // Radial chart component
